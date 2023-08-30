@@ -6,6 +6,7 @@ class Product {
     this.name = n; //data member
     this.price = p;
   }
+  //you can one constructor create in javascript
   //member function
   displayProduct() {
     console.log(this.name, this.price);
