@@ -12,7 +12,7 @@ const coding = ["js", "ruby", "python", "java", "cpp"];
 // coding.forEach(printme);
 
 coding.forEach(function (item, index, arr) {
-  console.log(item, index, arr);
+  // console.log(item, index, arr);
 });
 
 //array of object
