@@ -28,10 +28,10 @@ map.set("FR", "FRANCE");
 
 //here we print key and value differently
 
-const myObj = {
-  game1: "nfs",
-  game2: "cricket",
-};
+// const myObj = {
+//   game1: "nfs",
+//   game2: "cricket",
+// };
 
 // for (const [key, value] of myObj) {
 //   console.log(key, ":-", value);
