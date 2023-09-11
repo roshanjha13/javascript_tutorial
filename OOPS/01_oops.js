@@ -1,5 +1,16 @@
-const x = function movesZero(arr) {
-  const res = arr;
-};
+function User(username, loginCount, isLoggedIn) {
+  this.username = username;
+  this.loginCount = loginCount;
+  this.isLoggedIn = isLoggedIn;
+  this.greeting = function () {
+    console.log(`Welcome ${this.username}`);
+  };
 
-const answer = movesZero([1, 0, 0, 4, 5]);
+  return this;
+}
+
+const userOne = new User("roshan", 11, true);
+const userTwo = new User("rahul", 12, false);
+
+// console.log(auto instanceof userOne);
+console.log(userTwo);
